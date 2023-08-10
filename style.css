@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+    font-family: "Roboto";
+}
+
+#sectionmainpage {
+    background-image: url("https://webrfree.com/wp-content/uploads/2018/09/1920x1080_Abstract_2015210-650x366.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+.navbar h1 {
+    color: #0ef;
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: overline;
+}
+
+.navbar h1 span {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul li a span {
+    color: #0ef;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar ul li button {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.content {
+    background-color: transparent;
+    border: 1px solid #0ef;
+    border-radius: 12px;
+    box-shadow: #0ef 0 0 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25vh;
+    padding: 15px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.content h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 8px 0;
+}
+
+.content p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content button {
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: #0ef 0 0 20px;
+}
+
+.content strong {
+    color: #0ef;
+    font-size: 15px;
+    margin: 15px 0 10px 0;
+}
+
+/* ----------------------------formpage -------------------------------*/
+.formdetails {
+    padding: 10px;
+}
+
+.formdetails h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.formdetails label {
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+
+    margin-top: 15px;
+}
+
+.formdetails input,
+.formdetails textarea {
+    border-radius: 8px;
+    border: 1px solid blue;
+    padding: 8px;
+    outline: none;
+}
+
+.formdetails input:hover,
+.formdetails textarea:hover {
+    box-shadow: #0ef 1px 1px 2px;
+}
